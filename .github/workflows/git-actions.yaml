@@ -41,5 +41,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          labels: ${{ secrets.DOCKER_USERNAME }}/${{ github.repository }}
-          tags: latest
+          tags: ruhan008/first-git-pipeline:latest
