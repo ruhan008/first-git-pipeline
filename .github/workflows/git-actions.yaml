@@ -41,5 +41,5 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          images: username/app
+          labels: ${{ secrets.DOCKER_USERNAME }}/${{ github.repository }}
           tags: type=sha
