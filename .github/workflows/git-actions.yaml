@@ -42,4 +42,4 @@ jobs:
           file: ./Dockerfile
           push: true
           labels: ${{ secrets.DOCKER_USERNAME }}/${{ github.repository }}
-          tags: type=sha
+          tags: latest
