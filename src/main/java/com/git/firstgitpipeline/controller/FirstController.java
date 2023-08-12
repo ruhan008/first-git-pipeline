@@ -9,6 +9,6 @@ public class FirstController {
 
     @GetMapping("/hello/{name}")
     public String sayHello(@PathVariable(name = "name") String name) {
-        return "Hi " + name + ", how are you doing? Are you going to use git actions from now on?";
+        return "Hi " + name + ", how are you doing? Looks like I am going to experiment with Git Actions?";
     }
 }
